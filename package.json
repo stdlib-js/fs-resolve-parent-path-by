@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/fs-resolve-parent-path-by",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Resolve a path according to a predicate function by walking parent directories.",
   "license": "Apache-2.0",
   "author": {
@@ -43,6 +43,7 @@
     "@stdlib/assert-is-string": "^0.0.x",
     "@stdlib/fs-exists": "^0.0.x",
     "@stdlib/process-cwd": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x"
   },
   "devDependencies": {
