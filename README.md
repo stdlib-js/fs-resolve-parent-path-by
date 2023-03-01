@@ -217,7 +217,7 @@ resolveParentPathBy( './../non_existent_path/package.json', predicateAsync, onPa
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/fs/resolve-parent-path`][@stdlib/fs/resolve-parent-path]</span><span class="delimiter">: </span><span class="description">resolve a path by walking parent directories.</span>
+-   <span class="package-name">[`@stdlib/fs-resolve-parent-path`][@stdlib/fs/resolve-parent-path]</span><span class="delimiter">: </span><span class="description">resolve a path by walking parent directories.</span>
 
 </section>
 

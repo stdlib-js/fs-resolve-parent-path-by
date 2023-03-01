@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-path-by"
-click B href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/main"
-click C href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/production"
-click D href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/esm"
-click E href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/deno"
-click F href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-path-by"
+%% click B href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/main"
+%% click C href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/production"
+%% click D href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/esm"
+%% click E href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/deno"
+%% click F href "https://github.com/stdlib-js/fs-resolve-parent-path-by/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/fs/resolve-parent-path-by
