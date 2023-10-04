@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/fs-resolve-parent-path-by/tags). For example,
+
+```javascript
 import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.1.1-deno/mod.js';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@deno/mod.js';
 ```
 
 <a name="resolve-parent-path-by"></a>
@@ -157,7 +162,7 @@ If unable to resolve a path, the function returns `null` as the path result.
 <!-- eslint-disable stdlib/no-dynamic-require -->
 
 ```javascript
-import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.1.1-deno/mod.js';
+import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@deno/mod.js';
 
 var opts = {
     'dir': __dirname
