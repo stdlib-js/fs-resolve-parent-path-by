@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@esm/index.mjs';
+import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@esm/index.mjs';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.2.3-esm/index.mjs';
 ```
 
 <a name="resolve-parent-path-by"></a>
@@ -162,7 +162,7 @@ If unable to resolve a path, the function returns `null` as the path result.
 <body>
 <script type="module">
 
-import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@esm/index.mjs';
+import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.2.3-esm/index.mjs';
 
 var opts = {
     'dir': __dirname
