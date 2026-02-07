@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/fs-resolve-parent-path-by/tags). For example,
+
+```javascript
 import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.2.3-esm/index.mjs';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@esm/index.mjs';
 ```
 
 <a name="resolve-parent-path-by"></a>
@@ -162,7 +167,7 @@ If unable to resolve a path, the function returns `null` as the path result.
 <body>
 <script type="module">
 
-import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@v0.2.3-esm/index.mjs';
+import resolveParentPathBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-path-by@esm/index.mjs';
 
 var opts = {
     'dir': __dirname
